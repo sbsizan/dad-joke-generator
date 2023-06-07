@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left bottom, lightcyan, lightpink, lightcyan);
+}
+.dad-joke-container{
+    background: rgba(255, 255, 255, .3);
+    padding: 24px;
+    border-radius: 14px;
+    width: 70%;
+    text-align: center;
+}
+#dad-joke-heading{
+    color: rgb(199, 79, 36);
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#joke{
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(99, 77, 72);
+}
+
+#btn-joke-generate{
+    padding: 12px 28px;
+    border-radius: 8px;
+    border-color: rgba(199, 79, 36, .5);
+    cursor: pointer;
+}
